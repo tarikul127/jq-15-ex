@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>jq</title>
+   
+    <!--css links-->
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+  </head>
+  <body>
+    
+    <div class="container">
+
+
+      <!-- ex 1 Draggable -->
+      <h2>Ex 1 Draggable:</h2>
+      <div id="draggable" class="ex1">
+        <h2>Drag me around</h2>
+      </div>
+
+      <hr>
+      <!-- ex 2  Droppable-->
+
+      <h2>Ex 2 Droppable:</h2>
+     <div id="dragg">
+      <p>I'm draggable but can't be dropped</p>
+    </div>
+     
+    <div id="dragg1" >
+      <p>Drag me to my target</p>
+    </div>
+     
+    <div id="dropp" >
+      <p id="ex2">Dropped hear</p>
+    </div>
+    <hr>
+    <br><br>
+
+
+    <!-- ex 3 Resizable -->
+    <h2>ex 3 Resizable</h2>
+    <div id="resizable" class="ui-widget-content">
+   <h3 id="ex3">Animate</h3>
+ </div>
+<br><br><br><br><br><br>
+
+
+<!-- ex 4 Selectable -->
+
+  <h3 class="text-success">Ex 4 Selectable</h3>
+        <div>
+        <ul id="select">
+          <li class="ui-widget-content">Item 1</li>
+          <li class="ui-widget-content">Item 2</li>
+          <li class="ui-widget-content">Item 3</li>
+          <li class="ui-widget-content">Item 4</li>
+          <li class="ui-widget-content">Item 5</li>
+          <li class="ui-widget-content">Item 6</li>
+          <li class="ui-widget-content">Item 7</li>
+        </ul>
+<br><br><br><br><br><br>
+
+<!-- EX 5 Sortable -->
+<h3> Ex 5 Sortable</h3>
+<ul id="sort">
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+</ul>
+
+
+<!-- Ex 6 Accordion -->
+<h3>Ex 6 Accordion</h3>
+
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, .</p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at. </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+  </div>
+</div>
+
+<!-- ex 7 Autocomplete -->
+
+<h3>ex 7 Autocomplete</h3>
+<div class="ui-widget">
+  <label for="tags">Your Favourite language </label>
+  <input id="tags">
+</div>
+
+<br><br><br><br><br><br>
+
+
+<!-- ex 8 Button -->
+ <section>
+      <div class="container">
+        <h3 class="text-success">Example 8: Button</h3>
+       <button class="ui-button ui-widget ui-corner-all">A button element</button>
+ 
+       <input class="ui-button ui-widget ui-corner-all" type="submit" value="A submit button">
+ 
+       <a class="ui-button ui-widget ui-corner-all" href="#">An anchor</a>
+
+      </div>
+    </section><br>
+
+
+    <!-- ex 9 Datepicker -->
+ 
+ <h3 class="text-success">Ex 9 Datepicker</h3>
+<p>Date: <input type="text" id="datepicker"></p>
+ 
+  <br><br><br>  <br><br>
+
+  <!-- Ex 10 Dialog -->
+  <h3 class="text-success">Ex 10 Dialog </h3>
+<div id="dialog" title="Basic dialog">
+  <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+ 
+<button id="opener">Open Dialog</button>
+
+
+<!-- ex 11 Menu -->
+<h3 class="text-info">Ex 11 Menu</h3>
+
+<ul id="menu">
+  <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+  <li><div>Books</div></li>
+  <li><div>Clothing</div></li>
+  <li><div>Electronics</div>
+    <ul>
+      <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+      <li><div>Car Hifi</div></li>
+      <li><div>Utilities</div></li>
+    </ul>
+  </li>
+  <li><div>Movies</div></li>
+  <li><div>Music</div>
+    <ul>
+      <li><div>Rock</div>
+        <ul>
+          <li><div>Alternative</div></li>
+          <li><div>Classic</div></li>
+        </ul>
+      </li>
+      <li><div>Jazz</div>
+        <ul>
+          <li><div>Freejazz</div></li>
+          <li><div>Big Band</div></li>
+          <li><div>Modern</div></li>
+        </ul>
+      </li>
+      <li><div>Pop</div></li>
+    </ul>
+  </li>
+  <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+</ul>
+ <!--example 12-->
+    <section>
+      <div class="container">
+        <h3 class="text-success">Example 12: Selectbar</h3>
+        <div class="demo">
+ 
+        <form action="#">
+ 
+          <div id="circle"></div>
+ 
+          <fieldset class="fld">
+            <label class="lbl" for="radius">Circle radius</label>
+            <select name="radius" id="radius">
+              <option value="50">50px</option>
+              <option value="100">100px</option>
+              <option value="150" selected="selected">150px</option>
+              <option value="200">200px</option>
+              <option value="250">250px</option>
+            </select>
+ 
+            <label class="lbl" for="color">Circle color</label>
+            <select name="color" id="color">
+              <option value="black">Black</option>
+              <option value="red" selected="selected">Red</option>
+              <option value="yellow" >Yellow</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </fieldset>
+ 
+          </form>
+ 
+          </div>
+
+      </div>
+    </section><br>
+
+<!-- ex  13 Slide-->
+<h3> ex  13 Slide </h3>
+<p class="ui-state-default ui-corner-all ui-helper-clearfix" style="padding:4px;">
+  <span class="ui-icon ui-icon-pencil" style="float:left; margin:-2px 5px 0 0;"></span>
+  Simple Colorpicker
+</p>
+ 
+<div id="red"></div>
+<div id="green"></div>
+<div id="blue"></div>
+ 
+<div id="swatch" class="ui-widget-content ui-corner-all"></div>
+
+<hr>
+
+
+<!-- Ex 14 Color Animation -->
+
+
+<h3 class="text-success">Ex 14 Color Animation</h3>
+
+<div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+    <p>
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+ 
+<button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+ 
+ 
+<!-- Ex 15 Add Class -->
+
+<h3 class="text-success">Ex 15 Add Class
+</h3>
+<div class="toggler1">
+  <div id="effect1" class="ui-corner-all">
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+  </div>
+</div>
+ 
+<button id="button1" class="ui-state-default ui-corner-all">Run Effect</button>
+
+<!-- EX 16 Progressbar -->
+<h3> EX 16 Progressbar</h3>
+ <div id="progressbar"><div class="progress-label">Loading...</div></div>
+ <br><br><br>
+ 
+
+
+
+ 
+
+
+
+    </div>
+
+    <!--script links-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
